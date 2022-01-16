@@ -729,8 +729,7 @@ img {
   height: 581px;
   top: 50%;
   left: 50%;
-  transf
-  orm: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%) scale(1);
   background-color: var(--third-bgc);
   transition: transform var(--primary-trans-duration) var(--primary-cubic);
 }
