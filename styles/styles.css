@@ -720,7 +720,7 @@ img {
 }
 
 .backdrop.is-hidden .modal {
-  transform: scale(0.1);
+  transform: translate(-50%, -50%) scale(0.1);
 }
 
 .modal {
@@ -729,8 +729,9 @@ img {
   height: 581px;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); scale(1);
+  transform: translate(-50%, -50%) scale(1);
   background-color: var(--third-bgc);
+  transition: transform var(--primary-trans-duration) var(--primary-cubic);
 }
 
 .icon-close {
